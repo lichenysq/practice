@@ -6,15 +6,15 @@ import threading
 # TL00_FSM4_9999_181129_000699_release_BTSSM_downloadable
 # FL00_FSM4_9999_181128_023560_release_BTSSM_downloadable
 servdict = {}
-# servdict["10.108.183.152"] = "192.168.255.1;FL00_FSM4_9999_190118_024487_release_BTSSM_downloadable.zip"
-# servdict["10.108.183.160"] = "192.168.255.7;FL18A_ENB_0000_000692_000000_release_BTSSM_downloadable.zip"
+# servdict["10.108.183.152"] = "192.168.255.1;FL00_FSM4_9999_190212_024890_release_BTSSM_downloadable.zip"
+# servdict["10.108.183.160"] = "192.168.255.7;FL00_FSM4_9999_190212_024890_release_BTSSM_downloadable.zip"
 # servdict["10.108.183.156"] = "192.168.255.1;FL00_FSM4_9999_190118_024487_release_BTSSM_downloadable.zip"
 # servdict["10.108.183.162"] = "192.168.255.7;FL18A_ENB_0000_000692_000000_release_BTSSM_downloadable.zip"
 
-servdict["10.108.183.182"] = "192.168.255.1;TL00_FSM4_9999_190119_000198_release_BTSSM_downloadable.zip"
+# servdict["10.108.183.182"] = "192.168.255.1;TL00_FSM4_9999_190119_000198_release_BTSSM_downloadable.zip"
 # servdict["10.108.183.161"] = "192.168.255.7;TL18A_ENB_0000_000447_000000_release_BTSSM_downloadable.zip"
-servdict["10.108.183.158"] = "192.168.255.1;TL00_FSM4_9999_190119_000198_release_BTSSM_downloadable.zip"
-# servdict["10.108.183.163"] = "192.168.255.7;TL18A_ENB_0000_000447_000000_release_BTSSM_downloadable.zip"
+servdict["10.108.183.158"] = "192.168.255.1;TL00_FSM4_9999_190212_000196_release_BTSSM_downloadable.zip"
+servdict["10.108.183.163"] = "192.168.255.7;TL00_FSM4_9999_190212_000196_release_BTSSM_downloadable.zip"
 
 
 baseip = "10.108.183.152"
@@ -104,8 +104,8 @@ def updateEnb():
     for key in servdict:
         allServList.append(key)
 
-    mutiThreadRun(allServList, "scpBuild")
-    # mutiThreadRun(allServList, "yaft")
+    # mutiThreadRun(allServList, "scpBuild")
+    mutiThreadRun(allServList, "yaft")
 
 def uploadIphy():
     mutiThreadRun(iphyServList, "scpWTS")
