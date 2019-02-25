@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea95cb68-6659-4209-9acc-61d65115149c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/autoTools/checkMessage3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/2_addTwoNumbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/3_lengthOfLongestSubstring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/4_findMedianSortedArrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/5_longestPalindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/6_z_reverse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/7_reverse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sshcmd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshcmd.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/1_two_num_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/1_two_num_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTools/checkMessage3.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoTools/checkMessage3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +20,7 @@
     <SUITE FILE_PATH="coverage/practice$7_reverse.coverage" NAME="7_reverse Coverage Results" MODIFIED="1550472096943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/sshcmd$test.coverage" NAME="test Coverage Results" MODIFIED="1547799479307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/practice$3_lengthOfLongestSubstring.coverage" NAME="3_lengthOfLongestSubstring Coverage Results" MODIFIED="1550544347903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
-    <SUITE FILE_PATH="coverage/practice$checkMessage3.coverage" NAME="checkMessage3 Coverage Results" MODIFIED="1551077251415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoTools" />
+    <SUITE FILE_PATH="coverage/practice$checkMessage3.coverage" NAME="checkMessage3 Coverage Results" MODIFIED="1551079424504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoTools" />
     <SUITE FILE_PATH="coverage/practice$4_findMedianSortedArrays.coverage" NAME="4_findMedianSortedArrays Coverage Results" MODIFIED="1551059315126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
   </component>
   <component name="FileEditorManager">
@@ -51,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/autoTools/checkMessage3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+            <state relative-caret-position="361">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -134,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1456" />
@@ -340,23 +329,23 @@
       <workItem from="1549935093937" duration="71635000" />
       <workItem from="1550456718155" duration="14374000" />
       <workItem from="1550541766358" duration="15118000" />
-      <workItem from="1551058547328" duration="14628000" />
+      <workItem from="1551058547328" duration="15594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166130000" />
+    <option name="totallyTimeSpent" value="167096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22421204" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22421204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.115277775" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2638889" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17083333" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30277777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -585,8 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/autoTools/checkMessage3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        <state relative-caret-position="361">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

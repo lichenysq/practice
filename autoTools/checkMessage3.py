@@ -25,7 +25,7 @@ def checkMg3(filePath):
     judgeDict = {}
 
     for row in filedatalist:
-        receiver = row[reCellIdIndex] + ":" + row[reEnbIdIndex]
+        receiver = row[msgIdIndex] + ":" + row[reCellIdIndex] + ":" + row[reEnbIdIndex]
         # newsfn16 = row[sfnIndex]
         newsfn = int(row[sfnIndex].replace("SFN=", ""), 16)
 
@@ -45,7 +45,6 @@ def checkMg3(filePath):
             else:
                 raise Exception("***** check message3 failed ****** \n"
                                 "please check:" + row[0] + " and " + judgeDict[receiver][1])
-
         else:
             judgeDict[receiver] = [newsfn, row[0]]
 
