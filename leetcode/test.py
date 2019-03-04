@@ -19,7 +19,9 @@ print(type(123))
 #     print(item)
 
 
-for i in range(5):
-	if i ==3:
-		pass
-	print(i)
+# for i in range(5):
+# 	if i ==3:
+# 		pass
+# 	print(i)
+
+print(3//2)
